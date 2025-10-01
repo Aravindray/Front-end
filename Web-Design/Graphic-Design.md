@@ -1,6 +1,63 @@
 # Intro to Graphic Design
 
-from **[GCF Global](https://edu.gcfglobal.org/en/beginning-graphic-design/)**
+## Terms
+
+1. Design
+2. Development
+3. Sitemap
+	- List of pages and sections on our website (sitemap.xml)
+4. Wireframe
+5. Design System
+	- It is a set of rules and components that we build for our website
+	- Basic Design System rules - Color, Typography, Spacing, Buttons, Forms, Images, Cards
+6. Token
+	- Token is a single rule about your design
+	- **name = value** (Eg: page-background = white, padding-large = 32px)
+7. Primitive Token
+	- Single raw value (for Token)
+	- Eg: brand-blue = #2684FC
+8. Sematic Token
+	- Sematic Token references Primitive Token
+	- Eg: button-color = brand-blue
+9. Absolute Sizing
+	- When element has a strict size which is unaffected by anything else in the design
+10. Relative Sizing
+	- When size of an element varies depending on the size of another element
+11. Responsive Design
+	- Change the element size responsive to screen
+12. Adaptive
+	- Properties the use for responsive and adoptive
+13. Viewport Height (VH)
+	- VH is a percentage % of the measurements of the Height an element takes up relative to the viewport
+14. Viewport Width
+	- VW is a percentage % of the measurements of the Width an element takes up relative to the viewport
+15. CSS
+16. Viewport
+	- Just what the browser can see at any one time
+	- Using viewport can be great for big sections you want to let take up the entire page
+17. em
+	- em is a size that relative to parent element font size
+18. rem
+	- stand for root em
+	- It size relative to the root font size of your browser
+19. clamp
+	- Clamp are the easiest way to scale an element relative to the viewport size without getting so huge or small that they break your design
+	- clamp(2rem, 7vw, 6rem) // Syntax clamp(min value, relative value, max value)
+	- Visit [Clamp() Function Calculator | Marc Bacon](https://www.marcbacon.com/tools/clamp-calculator/)
+20. Stylesheet
+21. Selector
+22. Property
+23. Value
+	- Example of selector, property & value
+	- `selector { property: value }`
+24. User Experience / UX
+	- What do you want visitor to do on your website?
+	- How can you make it easier or more enjoyable?
+	- Answer: Simple and enjoy as possible
+
+---
+
+Below Lessons are from **[GCF Global](https://edu.gcfglobal.org/en/beginning-graphic-design/)**
 
 ## Typography [^1]
 
@@ -41,10 +98,11 @@ Typography is the style or appearance of text.
 
 ## Color / Color Theory [^2]
 
-The Basics: The mix of primary and secondary colors make a color wheel
+The Basics: The mix of primary, secondary and Tertiary colors make a color wheel.
 
 Primary Colors: <span style="color:rgb(255, 0, 0)">Red</span>, <span style="color:rgb(0, 112, 192)">Blue</span>, <span style="color:rgb(255, 225, 0)">Yellow</span>
 Secondary Colors: <span style="color:rgb(255, 192, 0)">Orange</span>, <span style="color:rgb(0, 176, 80)">Green</span>, <span style="color:rgb(112, 48, 160)">Purple</span>
+Tertiary Colors: <span style="color:rgb(199, 21, 133)">Red Violet</span>, <span style="color:rgb(138, 43, 226)">Blue Violet</span>, <span style="color:rgb(13, 152, 186)">Blue Green</span>, <span style="color:rgb(154,205,50)">Yellow Green</span>, <span style="color:rgb(255,174,66)">Yellow Orange</span>, <span style="color:rgb(255, 83, 73)">Red orange</span>
 
 ### Color Terms
 
@@ -58,6 +116,8 @@ Secondary Colors: <span style="color:rgb(255, 192, 0)">Orange</span>, <span styl
 	- Lighter
 	- Darker
 	- Desaturated
+5. Sade
+6. Tint
 
 > [!tip] How to choose a correct color for your project! Use **Color Harmony**
 
@@ -181,9 +241,39 @@ Better watch the actual video - [Beginning Graphic Design: Images](https://youtu
 
 - Better watch the YouTube video [Beginning Graphic Design: Fundamentals of Design]([Beginning Graphic Design: Fundamentals - YouTube](https://www.youtube.com/watch?v=YqQx75OPRa0))
 
+## Branding & Identity [^6]
+
+**Branding** is what other people think
+- About you
+- Your company
+- Your product
+- Your service
+
+**Visual Identity** is what that brand looks like
+- From your logo to your color of choices
+- Understand visual identity can help you make more thoughtful design decisions
+- Visual Identity is kind a like preview of your brand
+- Visual Identity isn't just a marketing tool
+
+### Main components of Visual Identity
+
+1. Logo
+	- What identifies your brand using particular mark, type design or both
+	- Effective logo tends to be simple
+2. Color
+	- Helps define your brand in a very powerful way
+	- Main color derived from company logo
+	- Define your brands personality and style
+3. Typography
+	- Text is one of the simpler aspect of identify but it can be surprising expressive 
+	- Most brand choose 2 to 3 fonts (often inspired by logo)
+4. Images
+	- Images are huge part of building a unique identity
+	- In professional - Images are created for the brand
 
 [^1]: [Beginning Graphic Design: Typography](https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/)
 [^2]: [Beginning Graphic Design: Color](https://edu.gcfglobal.org/en/beginning-graphic-design/color/1/)
 [^3]: [Beginning Graphic Design: Layout and Composition](https://edu.gcfglobal.org/en/beginning-graphic-design/layout-and-composition/1/)
 [^4]: [Beginning Graphic Design: Images](https://edu.gcfglobal.org/en/beginning-graphic-design/images/1/)
 [^5]: [Beginning Graphic Design: Fundamentals of Design](https://edu.gcfglobal.org/en/beginning-graphic-design/fundamentals-of-design/1/)
+[^6]: [Beginning Graphic Design: Branding and Identity](https://edu.gcfglobal.org/en/beginning-graphic-design/branding-and-identity/1/)
